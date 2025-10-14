@@ -1,32 +1,15 @@
-﻿interface IFirstInterface
-{
-    void myMethod(); // interface method
-}
-
-interface ISecondInterface
-{
-    void myOtherMethod(); // interface method
-}
-
-// Implement multiple interfaces
-class DemoClass : IFirstInterface, ISecondInterface
-{
-    public void myMethod()
-    {
-        Console.WriteLine("Some text..");
-    }
-    public void myOtherMethod()
-    {
-        Console.WriteLine("Some other text...");
-    }
-}
+﻿using LearningNotes;
 
 class Program
 {
     static void Main(string[] args)
     {
-        DemoClass myObj = new DemoClass();
-        myObj.myMethod();
-        myObj.myOtherMethod();
+        Utilities.MyMethod();
+        ArraysAndLoops.PrintArrayExamples();
+        StringsExamples.PrintStringExamples();
+        TwoDArrayExamples.PrintTwoDArrayExamples();
+        Console.WriteLine(Utilities.LinealSearch(new int[] { 5, 1, 8, 9 }, 8));
+        MultipleInterfaces.ShowMultipleInterfaces();
+        
     }
 }
