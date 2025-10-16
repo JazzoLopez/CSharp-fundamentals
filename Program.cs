@@ -10,6 +10,9 @@ class Program
         TwoDArrayExamples.PrintTwoDArrayExamples();
         Console.WriteLine(Utilities.LinealSearch(new int[] { 5, 1, 8, 9 }, 8));
         MultipleInterfaces.ShowMultipleInterfaces();
-        
+        Operators.Demo();
+        StringCharacters.PrintCharacters();
+        Structures.GetStructuresExample();
+
     }
 }

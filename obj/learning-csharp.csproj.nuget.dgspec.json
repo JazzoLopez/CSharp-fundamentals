@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\projects\\CSharp\\learning-csharp\\learning-csharp.csproj": {}
+    "C:\\projects\\CSharp\\learning-csharp\\learning-csharp.csproj": {}
   },
   "projects": {
-    "c:\\projects\\CSharp\\learning-csharp\\learning-csharp.csproj": {
+    "C:\\projects\\CSharp\\learning-csharp\\learning-csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\projects\\CSharp\\learning-csharp\\learning-csharp.csproj",
+        "projectUniqueName": "C:\\projects\\CSharp\\learning-csharp\\learning-csharp.csproj",
         "projectName": "learning-csharp",
-        "projectPath": "c:\\projects\\CSharp\\learning-csharp\\learning-csharp.csproj",
+        "projectPath": "C:\\projects\\CSharp\\learning-csharp\\learning-csharp.csproj",
         "packagesPath": "C:\\Users\\jazzi\\.nuget\\packages\\",
-        "outputPath": "c:\\projects\\CSharp\\learning-csharp\\obj\\",
+        "outputPath": "C:\\projects\\CSharp\\learning-csharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
