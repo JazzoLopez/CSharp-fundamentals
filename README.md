@@ -1,12 +1,6 @@
 # Notas de C# (separadas)
 
-Archivos creados para organizar las notas de estudio en temas:
-
-- `Utilities.cs` — Métodos utilitarios (MyMethod, LinealSearch, funciones de ejemplo).
-- `ArraysAndLoops.cs` — Ejemplos de arrays, ordenamiento y bucles.
-- `StringsExamples.cs` — Ejemplos de manejo de strings y substrings.
-- `TwoDArrayExamples.cs` — Ejemplos con arrays bidimensionales.
-
+Este repositorio contiene todo el material y ejemplos que he ido desarrollando para aprender y reforzar mis conocimientos en C#, con el objetivo de utilizar el lenguaje en futuros proyectos y trabajar con diferentes herramientas del ecosistema .NET.
 Cómo usar:
 
 1. Desde `Program.cs` llama a los métodos estáticos, por ejemplo:
