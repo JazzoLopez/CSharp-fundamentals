@@ -1,8 +1,8 @@
-namespace SelectionSentences
+namespace DecisionSentences
 {
-    public static class SelectionSentences
+    public static class DecisionSentences
     {
-        public static void PrintSelectionExamples()
+        public static void PrintDecisionExamples()
         {
             int time = 20;
             string result = (time < 18) ? "Good day." : "Good evening.";
@@ -47,6 +47,13 @@ namespace SelectionSentences
                     Console.WriteLine("Sunday");
                     break;
             }
+            if (day == 4)
+            {
+                goto salida;
+            }
+
+        salida:
+            Console.WriteLine("This is the end of the program.");
         }
     }
 }
