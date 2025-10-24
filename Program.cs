@@ -13,6 +13,7 @@ class Program
         Operators.Demo();
         StringCharacters.PrintCharacters();
         Structures.GetStructuresExample();
+        Interfaces.Ejecutar();
 
     }
 }
